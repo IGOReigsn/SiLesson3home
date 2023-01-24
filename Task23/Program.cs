@@ -7,7 +7,7 @@ Console.WriteLine("Введите число:");
 double num=Convert.ToDouble(Console.ReadLine());
 if (num>0)
     {for(double i=1;i<=num;i++)
-        {Console.Write( i + " => "+ Math.Pow(i,3)+ "    ");}
+        {Console.WriteLine( i + " в кубе = "+ Math.Pow(i,3)+ "    ");}
     }
 else {Console.Write("Введенное число должно быть положительным ");}
 Console.WriteLine();
